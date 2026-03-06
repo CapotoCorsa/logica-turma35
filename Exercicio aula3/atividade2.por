@@ -9,6 +9,8 @@ programa
 		leia(pedir1)
 		limpa()
 
+		se(pedir1==1){
+
 		faca{
 
 			escreva("Aqui está o nosso cardápio!\n\nDigite o número do que desejar.\n1- Hambúrguer........R$ 3,00\n2- Cheeseburgerr.....R$ 2,50\n3- Fritas............R$ 2,50\n4- Refrigerante......R$ 1,00\n5- Milkshake.........R$ 3,00\n0- Sair\n")
@@ -149,6 +151,11 @@ programa
 
 		real total=(((ham*3)+(cheese*2.50)+(frita*2.50)+(refri*1)+(milk*3)))
 		escreva("O pedido foi:\n\n",ham," Hambúgueres\n",cheese," Cheeseburgers\n",frita," Fritas\n",refri," Refrigerantes\n",milk," Milkshakes\n\nTotalizando: R$",total,"0\nObrigado por pedir conosco!")
+
+		}
+		senao se(pedir1==2){
+			escreva("Obrigado por nos visitar!")
+			}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -156,7 +163,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3049; 
+ * @POSICAO-CURSOR = 2774; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
